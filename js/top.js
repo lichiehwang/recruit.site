@@ -8,6 +8,15 @@ $(function() {
             $('.globalMenuSp').removeClass('active');
         }
     });
+    
+    // 添加额外的逻辑来处理 globalMenuSp 的关闭
+    $('.globalMenuSp').click(function() {
+        // 移除 globalMenuSp 的活动类
+        $(this).removeClass('active');
+        
+        // 同时移除 hamburger 的活动类
+        $('.hamburger').removeClass('active');
+    });
 });
 //アコーディオンをクリックした時の動作
 $('.title').on('click', function() {//タイトル要素をクリックしたら
