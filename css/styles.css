@@ -5,12 +5,11 @@
 html{
   overflow-x: hidden;
   font-family: "Avenir";
-  background-color: #DDDBD0;
+  background-color: #000000;
   font-size: 18px;
 }
 #wrapper{
   overflow-x: hidden;
-  max-width: 1440px;
   margin:0 auto;
 }
 /*------- header---------- */
@@ -39,6 +38,7 @@ html{
     height: 42px;
     cursor: pointer;
     text-align: center;
+    background-color: #355760;
   }
   .hamburger span {
     display : block;
@@ -46,7 +46,7 @@ html{
     width   : 30px;
     height  : 2px ;
     left    : 6px;
-    background : #555;
+    background : #FFFFFF;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition   : 0.3s ease-in-out;
     transition        : 0.3s ease-in-out;
@@ -86,10 +86,9 @@ html{
     top  : 0;
     right : 0;
     color: #fff;
-    background: #355760;
+    background-color: #355760;
     text-align: center;
-    width: 100vw;
-    height:100vw;
+    width: 20vw;
     opacity: 0;
     transition: opacity .6s ease, visibility .6s ease;
     visibility: hidden;
@@ -113,7 +112,7 @@ html{
     padding-bottom: 0;
   }
   nav.globalMenuSp ul li:hover{
-    background :#E5AA73;
+    background :rgba(229,170,115,.8);
    
   }
   
@@ -141,7 +140,7 @@ html{
 }
 
    .circle{ 
-  margin-top:-35%;
+  margin-top:-500px;
    margin-left:65%;
     display:block;
     width:600px;
@@ -155,7 +154,6 @@ html{
 /*------- message---------- */
 #message{
      background-color: #355760;
-     height:765px;
      position: relative;
      background-image: url(../images/lig.png);
      background-repeat: no-repeat;
@@ -201,15 +199,14 @@ html{
       
     }
     .flex3{
+      padding-bottom: 3%;
+      padding-top:15vh;
       display: flex;
-      position:absolute;
-      right:8vw;
-      top:15vh;
       color:white;
       letter-spacing: 0.5em;
       align-items: center;
-gap:100px;
-      justify-content: space-around;  
+gap:80px;
+justify-content: center; 
     }
     .m2 p{
       font-size: 1rem;
@@ -313,6 +310,7 @@ width: 100vw;
       column-gap: 70px;
       align-items: center;
       justify-content: center;
+      flex-direction: row-reverse;
     }
     .co2w{
       padding-top: 50px;
@@ -370,6 +368,7 @@ width: 100vw;
   transition: 0.3s ease-in-out;
   font-family: "Athelas";
   font-size: 16px;
+  
 }
 .button006 a:before {
   content: '';
@@ -388,7 +387,7 @@ width: 100vw;
   top: 50%;
   right: -2em;
   transform: translateY(-50%);
-  width: 60px;
+  width: 50px;
   height: 1px;
   background-color:#355760;
   transition: 0.3s;
@@ -397,8 +396,8 @@ width: 100vw;
   right: -2.5em;
 }
 .button006 a:hover {
-  background: #a2a7a7;
-  color:#eee;
+  background: rgba(53, 87, 96,.9);
+  color:#FFFFFF;
 }
 /*-------company---------- */
 /*-------member---------- */
@@ -510,11 +509,7 @@ padding-left:100px;
   .member6:hover img{
     opacity: 1;
   }
-   /*.member a:hover:before{
-    background: url(../images/Group\ 21.png); /* 表示する画像 
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-position: center top; */
+ 
   
 /*-------member---------- */
 /*-------job---------- */
@@ -546,71 +541,33 @@ padding-left:100px;
   .circle7{
     position:absolute;
     z-index: 0;
-    right:-200px;
-   top:60px;
+    right:-300px;
+   top:-100px;
     display:block;
     width:1020px;
     height:1020px;
     border-radius: 50%;
     border:3px solid #355760;
   }
-  .new{
-    position:absolute;
-    z-index: 0;
-    right:0px;
-   top:250px;
-    display:block;
-    background-color: #355760;
-    width:1200px;
-    height:370px;
-    
-  }
-  .new1{
-    position:absolute;
-    z-index: 1;
-    right:400px;
-   top:90px;
-    display:block;
-    background-color: white;
-    width:530px;
-    height:195px;
-  }
-  .new h2{
-    padding-top: 46px;
-    padding-left:77px;
-    font-size: 30px;
-    writing-mode: vertical-rl;
-    font-weight: bold;
-    color:white;
-    letter-spacing: 0.8rem;
-  }
-  .new p{
-    font-size: 18px;
-    color:black;
-    text-align: center;
-    font-weight: normal;
-    line-height: 2;
-    padding-top: 60px;
-  }
+  #contact{max-width:95vw}
+  
   /*アコーディオン全体*/
 .accordion-area{
   list-style: none;
-  width: 96%;
-  max-width: 900px;
-  margin-top: 700px;
+  width: 70vw;
+
+  margin-top: 150px;
 background-color: #355760;
-padding-top: 100px;
-padding-bottom: 100px;
-padding-right: 200px;
-padding-left: 50px;
+padding:5%;
 position: relative;
+padding-right:80px;
 }
 .accordion-area h2{
   float:right;
   writing-mode: vertical-rl;
   position:absolute;
-  top:46px;
-  right:77px;
+  top:3%;
+  right:3%;
   font-size: 30px;
   writing-mode: vertical-rl;
   font-weight: bold;
@@ -760,62 +717,69 @@ font-size: 6rem;
   background-repeat: no-repeat;
   position: relative;
   background-color: #355760;
-  height:360px;
+  
+  font-size: 1rem;
+  padding:30px;
 }
 .office{
-  position: absolute;
-  bottom:20px;
-right:600px;
+ 
   
   color:white;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 2;
   list-style: square inside;; 
 }
-.office h1{
-  font-weight: bold;
-  margin-top:15px;
+#footer h1{
+  font-weight:bold;
 }
+
 .flex7{
- position: absolute;
+ 
   color:white;
   font-size: 16px;
   line-height: 2;
-  bottom:20px;
-  left:50px;
+  
 list-style: square inside;;
 }
-.flex7 h1{
-  font-size: 1rem;
-  font-weight: bold;
-  margin-top:15px;
-}
+
 .flex8{
-  position: absolute;
+ 
   color:white;
   font-size: 16px;
   line-height: 2;
-  bottom:20px; 
-right:100px;
+ 
 }
-.flex8 h1{
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin-top:15px;
+.flex10{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+.flex9{display:flex;
+flex-direction: row;
+align-items: flex-end;
+gap:40px;}
 
 /*-------footer---------- */
 @media screen and (max-width: 1025px) {
   body {
     font-size: 16px;
   }
+  .flex10{
+    display: flex;
+    flex-direction:column;
+    gap:40px
+   
+  }
+  .flex9{justify-content: space-between;}
+  .accordion-area{width:100vw}
+  nav.globalMenuSp {width:40vw;}
   .circle2 {display:none}
   .m1{display:none}
   .flex3{
-   left:7vw;
-    right:5vw;
-    top:15vh; 
+   max-width:80vw;
+   margin:0 auto;
   }
+  .flex4{gap:100px}
   .co1, .co2, .co3{
     flex-direction: column;
   }
@@ -825,41 +789,65 @@ right:100px;
 .mmonly{
   display:none;
 }
- 
+
 }
   @media screen and (max-width: 600px) {
     body {
       font-size: 14px;
     }
+    .flex9{display:flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap:40px;}
+      .flex10{display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:40px;}
     .pconly{
       display:none;
     }
+    nav.globalMenuSp {width:100vw;
+      height:100vh;
+      background-color: #355760;}
+    .circle{ display:none;}
     .smonly{
       display:block
     }
    .smback{
     text-align: center;
-    
    }
+   #message{height:auto}
+   #message h1 {text-align:center;
+    position:static;
+  padding-top:20px;}
+  #company h1 {text-align:center;
+    position:static;
+  padding-top:20px;}
+  #member h1 {text-align:center;
+    position:static;
+  padding-top:20px;}
+  #job h1 {text-align:center;
+ 
+  padding-top:100px;}
+
    .m3 p{
     font-size: 1rem;
-    margin-bottom:40px;
     line-height: 1.5;
     color:white;
+    margin-bottom:40px;
   }
   .m3{
+    text-align: center;
   margin:0 auto;
-   padding-top: 40%;
-   max-width: 80%;
+   padding:10% 5%;
   }
   .flex4{
     width: 90%;
-    padding: 40% 0;
   }
   .button006 a {float:none;
     text-align: center;
   margin:5% auto;}
-  .co1w, .co2w, .co3w p {width:80vw;
+  .co1w, .co2w, .co3w {width:80vw;
   margin:0 auto;}
 
 .flex4 h2{
@@ -916,4 +904,7 @@ right:100px;
       }
       .j1{
         flex-direction: column;}
+        .button0010 a:before {display:none;}
+        .button0010 a:after {display:none}
+
   }
