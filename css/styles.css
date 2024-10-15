@@ -563,6 +563,7 @@ background-color: #355760;
 padding:5%;
 position: relative;
 padding-right:80px;
+    max-width:1250px;
 }
 .accordion-area h2{
   float:right;
