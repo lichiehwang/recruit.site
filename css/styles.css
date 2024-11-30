@@ -5,7 +5,7 @@
 html{
   overflow-x: hidden;
   font-family: "Avenir";
-  background-color: #000000;
+ 
   font-size: 18px;
 }
 #wrapper{
@@ -639,7 +639,7 @@ transform: rotate(-45deg);
   background: #f3f3f3;
 margin:0 3% 3% 3%;
   padding: 3%;
-  color:black;
+  color:#373737;
   font-size: 14px;
   line-height: 1.5;
 }
