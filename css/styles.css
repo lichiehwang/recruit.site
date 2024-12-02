@@ -4,7 +4,7 @@
 }
 html{
   overflow-x: hidden;
-  font-family: "Avenir";
+  font-family: "Inter";
  
   font-size: 18px;
 }
@@ -368,7 +368,7 @@ width: 100vw;
   padding: 10px 30px;
   color: #355760;
   transition: 0.3s ease-in-out;
-  font-family: "Avenir";
+  font-family: "Inter";
   font-size: 16px;
   
 }
