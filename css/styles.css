@@ -176,7 +176,7 @@ html{
  }
  .circle2{ position:absolute;
     z-index: 0;
-    left:-100px;
+    left:-250px;
     bottom:-100px;
     display:block;
     width:550px;
